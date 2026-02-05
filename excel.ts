@@ -1,5 +1,5 @@
 import * as XLSX from 'xlsx';
-import { AssetData } from '../types';
+import { AssetData } from './types';
 
 export const parseExcelFile = async (file: File): Promise<AssetData[]> => {
   return new Promise((resolve, reject) => {
