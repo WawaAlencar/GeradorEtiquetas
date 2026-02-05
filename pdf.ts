@@ -1,5 +1,5 @@
 import * as pdfjsLib from 'pdfjs-dist';
-import { AssetData, ReportItem } from '../types';
+import { AssetData, ReportItem } from './types';
 
 // Correção para lidar com inconsistências de exportação ESM (default vs named)
 // Em alguns ambientes, o módulo é exportado dentro de 'default'
