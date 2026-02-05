@@ -1,7 +1,7 @@
 import { Document, Packer, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun, WidthType, BorderStyle, VerticalAlign, AlignmentType, Header, Footer } from 'docx';
 import JsBarcode from 'jsbarcode';
 import saveAs from 'file-saver';
-import { AssetData, TagConfig } from '../types';
+import { AssetData, TagConfig } from './types';
 
 const generateBarcodeImage = (text: string): string => {
   const canvas = document.createElement("canvas");
