@@ -1,5 +1,5 @@
 import React from 'react';
-import { TagConfig } from '../types';
+import { TagConfig } from './types';
 import { Settings, LayoutGrid, Rows, Type, ScanBarcode, Hash, ChevronRight } from 'lucide-react';
 
 interface ConfigurationPanelProps {
