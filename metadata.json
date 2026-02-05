@@ -1,0 +1,5 @@
+{
+  "name": "Gerador de Etiquetas - UPAT",
+  "description": "Uma ferramenta para gerar etiquetas de patrimônio em Word (.docx) com códigos de barras a partir de um arquivo Excel. Possui layout personalizável.",
+  "requestFramePermissions": []
+}
