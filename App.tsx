@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import ConfigurationPanel from './components/ConfigurationPanel';
-import DropZone from './components/DropZone';
+import ConfigurationPanel from './ConfigurationPanel';
+import DropZone from './DropZone';
 import { TagConfig, ProcessingState, AssetData, AppMode, ReportItem } from './types';
-import { parsePdfFile, parseLocationReportPdf } from './utils/pdf';
-import { generateAndDownloadDoc } from './utils/docGenerator';
+import { parsePdfFile, parseLocationReportPdf } from './pdf';
+import { generateAndDownloadDoc } from './docGenerator';
 import { AlertCircle, CheckCircle2, FileDown, Loader2, FileText, Tag, Table2, MousePointer2, ArrowRightLeft, Search, Lock, ArrowRight, ShieldCheck, LogOut } from 'lucide-react';
 import * as XLSX from 'xlsx';
 
